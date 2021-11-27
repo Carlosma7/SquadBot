@@ -11,4 +11,4 @@ def clean(c):
 @task
 def test(c):
 	print("Tests execution from SquadBot")
-	run("pytest -v --disable-pytest-warnings src/test/*")
+	run("pytest -v -s --disable-pytest-warnings src/test/*")
