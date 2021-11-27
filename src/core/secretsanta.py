@@ -41,8 +41,8 @@ class SecretSanta():
 		"""Given a name of a new friend it adds him/her to the list of participants."""
 		self.__friends.append(name)
 
-	# Define the matchs/pairs
-	def define_matchs():
+	# Define the matches/pairs
+	def define_matches():
 		"""Define the different matches from the list of friends, checking that no one has himself/herself as the match."""
 		for friend in self.__friends:
 			self.__pairs[friend] = None
