@@ -4,6 +4,7 @@ from random import shuffle
 # Secret Santa class
 class SecretSanta():
 	def __init__(self, chat: str):
+		self.__chat = chat
 		self.__friends = []
 		self.__pairs = {}
 		self.__limit = 0
