@@ -1,13 +1,12 @@
 # SquadBot
-
-
-
-# Twitter Social Analyzer
 ---
 
 Hi! Welcome to SquadBot!
 
 The projects is a Telegram bot that offers a series of facilities for managing daily tasks in groups of friends.
+
+<h1 align="center">SquadBot</h1>
+<p align="center"><img src="https://raw.githubusercontent.com/Carlosma7/SquadBot/main/doc/img/logo.png"/></p> 
 
 ## Table of contents:
 ---
