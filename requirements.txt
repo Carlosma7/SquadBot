@@ -1,3 +1,7 @@
 invoke
 pytest
 assertpy
+python-dotenv
+pymongo
+dnspython
+pymongo[srv]
