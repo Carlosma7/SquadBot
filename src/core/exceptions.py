@@ -15,3 +15,6 @@ class UserNotInSecretSanta(Exception):
 
 class NotEnoughFriendsInSecretSanta(Exception):
 	"""Raised when there aren't enough players in a Secret Santa party. There should be at least three."""
+
+class UserHasNotStartedBotError(Exception):
+	"""Raised when an user has not started the bot in a private chat."""
