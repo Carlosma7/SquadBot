@@ -12,3 +12,9 @@ def clean(c):
 def test(c):
 	print("Tests execution from SquadBot")
 	run("pytest -v -s --disable-pytest-warnings src/test/*")
+
+# Run execution task
+@task
+def execute(c):
+	print("SquadBot running!")
+	run("python3 src/core/bot.py")
